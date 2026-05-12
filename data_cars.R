@@ -11,3 +11,6 @@ for (i in 1:n){
 }
 
 hist(mtcars$mpg)
+
+mtcars$kategori_mpg <- status
+head(mtcars[, c("mpg", "kategori_mpg")])
